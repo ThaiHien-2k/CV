@@ -5,7 +5,7 @@ function Persional() {
   return (
     <div className="App">
       <header className="App-header">
-       {/* <div className='background'></div> */}
+       <div className='background'></div>
      
       </header>
     </div>
