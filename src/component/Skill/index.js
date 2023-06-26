@@ -32,10 +32,13 @@ function Skill() {
         <div>GitHub, Railway, Netlify</div>
       </div>
       <br />
-      <Divider />
-      <h3 className="text-color">My Infor</h3>
-      <div className="QR">
-        <img src={QR} alt="" width={"80%"} height={"80%"} />
+
+      <div className="infor">
+        <Divider />
+        <h3 className="text-color">My Infor</h3>
+        <div className="QR">
+          <img src={QR} alt="" width={"80%"} height={"80%"} />
+        </div>
       </div>
     </div>
   );
