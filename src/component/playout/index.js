@@ -1,17 +1,19 @@
 // import logo from '../../logo.svg';
 import "./style.css";
-import AvatarBox from "../avatar";
+import Main from "../main";
 import Persional from "../persionalDetail";
-import Stack from "@mui/material/Stack";
 
 function App() {
   return (
-    <>
-      <Stack direction="row" spacing={2} className="background">
-        <AvatarBox />
+    <div className="br">
+      <div className="left">
         <Persional />
-      </Stack>
-    </>
+      </div>
+      <div className="right">
+        <Main />
+      </div>
+      <div className="clear"></div>
+    </div>
   );
 }
 

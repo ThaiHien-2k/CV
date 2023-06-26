@@ -1,0 +1,30 @@
+.name {
+  padding-left: 4%;
+  color: rgb(160, 152, 125);
+  font-weight: bold;
+}
+
+.name2 {
+  padding-left: 2%;
+}
+
+.decrip {
+  padding: 2%;
+  text-align: justify;
+}
+
+.link {
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+.link-pass {
+  position: relative;
+}
+.pass {
+  position: absolute;
+  border-radius: 2%;
+  padding: 2%;
+  left: 30%;
+  width: fit-content;
+  background-color: burlywood;
+}

@@ -5,8 +5,8 @@ import QR from "../../image/QR.png";
 
 function Skill() {
   return (
-    <div>
-      <h3>Tech Stack</h3>
+    <div className="divider">
+      <h3 className="text-color">Tech Stack</h3>
       <div className="skill">
         <div className="head">Database</div>
         <div>MongoDB, MySQL, firebase</div>
@@ -33,9 +33,9 @@ function Skill() {
       </div>
       <br />
       <Divider />
-      <h3>Tech Stack</h3>
+      <h3 className="text-color">My Infor</h3>
       <div className="QR">
-        <img src={QR} alt="" />
+        <img src={QR} alt="" width={"80%"} height={"80%"} />
       </div>
     </div>
   );
